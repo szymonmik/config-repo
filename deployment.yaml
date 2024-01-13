@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
         - name: app
-          image: szymonmik/zad2-img:7513586812
+          image: szymonmik/zad2-img:7514219620
           imagePullPolicy: IfNotPresent
           env:
             - name: VERSION
-              value: "7513586812"
+              value: "7514219620"
           ports:
             - name: http
               containerPort: 80
