@@ -23,7 +23,7 @@ spec:
                   cd temp &&
                   /usr/bin/git clone https://github.com/szymonmik/config-repo.git &&
                   sleep 10 &&
-                  cd Config-repo &&
+                  cd config-repo &&
                   kubectl apply -f deployment.yaml &&
                   kubectl apply -f service.yaml &&
                   kubectl apply -f ingress.yaml
